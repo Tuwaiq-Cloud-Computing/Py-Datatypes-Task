@@ -32,7 +32,7 @@ Notes:
 -  Code: ```list.sort()```
 
 8. Output: ``` [2, 0, 1] ``` 
--  Code: ```?```
+-  Code: ```list.pop()```
 
 9. Output: ```[0, 1] ```
 -  Code: ```?``` 
