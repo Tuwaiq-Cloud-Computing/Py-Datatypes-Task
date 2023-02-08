@@ -1,46 +1,70 @@
-# Py-Datatypes-Task
+# Py-datatypes-lab
 
 ## Tasks:
 
-Conisder the following list:
-```list = [2, 0, 1, 0]```
-According to the question, write down the code or the output
+Question 1:
+- Make a list with 3 elements
+- add an element to the end of list
+- remove an element from the list
+- reverse the list
+- sort the list 
+- add an element at the start of the list
+- print the index of the last element
+mylist=["F" , "B" , "C"]
+mylist.append("D")
+mylist.remove("C")
+mylist.sort()
+mylist.reverse()
+mylist.insert(0 , "U")
+#print(mylist)
+#print(len(mylist)-1)
 
-Notes: 
- These are not sequential, the code is only affecting the original list. 
- Answers should only be 1 line long
+Question 2:
+Consider the following list: ``` people = ["Ahmed", "Nasser", "Mohammed"] ```
+- print the list in the following format: Ahmed, Nasser, Mohammed
+- hint: read about join()
+list2=["Ahmed", "Nasser", "Mohammed"]
+#print(''.join(list2))
+Question 3:
+- Make a list of 3 dictionaries, each dictionary should contain information such as: name, phone_number
+- now add 1 more dictionary to the list 
+- now delete the name from the first dictionary
+- update the phone number of the last person
+- check if a first dictionary has a key called "name" 
+ParentDict=[ 
+     {
+    "name" : "Nora",
+    "Number" : 5631
+  },
+  {
+    "name" : "Ameera",
+    "Number" : 2322
+  },
+  {
+    "name" : "Sara",
+    "Number" : 8890
+  } ];
 
-1. Output: ```4```
--  Code:  ```?``` 
+print(ParentDict)
 
-2. Output: ```?```
--  Code: ```print(list[0])``` 
+ParentDict.append({ 
+    "name" : "afrah",
+    "Number" : 2007})
 
-3. Output: ```?```
--  Code: ```print(list.count(0))``` 
+print(ParentDict);
 
-4. Output: ```?```
--  Code: ```print(list[4])```
+ParentDict[0].pop("name");
+print(ParentDict)
 
-5. Output: ```?```
--  Code: ``` 2 in list```
+ParentDict[3].update( { "Number" : 2009 });
+print(ParentDict);
 
-6. Output: ```[2, 0, 1, 0, 'A'] ```
--  Code: ```?``` 
+if ParentDict[0].keys == "name":
+    print("Correct");
 
-7. Output: ```[0, 0, 1, 2] ```
--  Code: ```?```
-
-8. Output: ``` [2, 0, 1] ``` 
--  Code: ```?```
-
-9. Output: ```[0, 1] ```
--  Code: ```?``` 
-
-10. Output: ```[0, 1, 0, 2] ```
--  Code: ```?``` 
-
+else:
+    print("Not Correct");
 
 ## Submission:
 
-- Modify this file to complete the tasks then create a pull request
+- After finishing the task upload your Python script file to the forked repo and then create a pull request.
