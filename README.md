@@ -35,7 +35,7 @@ Notes:
 -  Code: ```list.pop()```
 
 9. Output: ```[0, 1] ```
--  Code: ```?``` 
+-  Code: ```print(list[1:3])``` 
 
 10. Output: ```[0, 1, 0, 2] ```
 -  Code: ```list.reverse()``` 
