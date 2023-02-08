@@ -22,7 +22,7 @@ Notes:
 4. Output: ```error```
 -  Code: ```print(list[4])```
 
-5. Output: ```?```
+5. Output: ```True```
 -  Code: ``` 2 in list```
 
 6. Output: ```[2, 0, 1, 0, 'A'] ```
