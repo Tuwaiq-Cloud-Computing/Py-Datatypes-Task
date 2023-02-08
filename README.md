@@ -11,7 +11,7 @@ Notes:
  Answers should only be 1 line long
 
 Output: 4
-Code: len(list)
+Code: print(len(list))
 
 Output: 2
 Code: print(list[0])
@@ -27,21 +27,27 @@ Code: 2 in list
 
 Output: [2, 0, 1, 0, 'A']
 Code: list.append("A")
+        print(list)
 
 Output: [0, 0, 1, 2]
 Code: list.sort()
+print(list)
 
 Output: [2, 0, 1]
 Code: list.pop(-1)
+print(list)
 
 Output: [0, 1]
 Code: list.remove(2)
+print(list)
 
 Output: [0, 1, 0, 2]
 Code: list.extend([2])
+print(list)
 
 Output: [0, 1]
 Code: list.remove(0)
+Print(list)
 
 ## Submission:
 
