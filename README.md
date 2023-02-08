@@ -38,7 +38,7 @@ Notes:
 -  Code: ```?``` 
 
 10. Output: ```[0, 1, 0, 2] ```
--  Code: ```?``` 
+-  Code: ```list.reverse()``` 
 
 
 ## Submission:
