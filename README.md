@@ -11,38 +11,38 @@ Notes:
  Answers should only be 1 line long
 
 1. Output: ```4```
--  Code:  len(list)
+-  Code:  ```len(list)```
 
-2. Output: 2
+2. Output: ```2```
 -  Code: ```print(list[0])``` 
 
-3. Output: 2
+3. Output: ```2```
 -  Code: ```print(list.count(0))``` 
 
-4. Output: IndexError: list index out of range
+4. Output: ```IndexError: list index out of range```
 -  Code: ```print(list[4])```
 
-5. Output: True
+5. Output: ```True```
 -  Code: ``` 2 in list```
 
 6. Output: ```[2, 0, 1, 0, 'A'] ```
--  Code: list.append('A')
-         print(list)
+-  Code: ```list.append('A')
+         print(list)```
 
 7. Output: ```[0, 0, 1, 2] ```
--  Code: list.sort()
-         print(list)
+-  Code: ```list.sort()
+         print(list)```
 
 8. Output: ``` [2, 0, 1] ``` 
--  Code: list.pop()
-         print(list)
+-  Code: ```list.pop()
+         print(list)```
 
 9. Output: ```[0, 1] ```
--  Code: print(list[1:3])
+-  Code: ```print(list[1:3])```
 
 10. Output: ```[0, 1, 0, 2] ```
--  Code: list.append(list.pop(0))
-         print(list)
+-  Code: ```list.append(list.pop(0))
+         print(list)```
 
 
 ## Submission:
