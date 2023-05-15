@@ -11,34 +11,43 @@ Notes:
  Answers should only be 1 line long
 
 1. Output: ```4```
--  Code:  ```?``` 
+-  Code:  print(len(list)) 
 
-2. Output: ```?```
+2. Output: 2
 -  Code: ```print(list[0])``` 
 
-3. Output: ```?```
+3. Output: 2
 -  Code: ```print(list.count(0))``` 
 
-4. Output: ```?```
+4. Output: list index out of range
 -  Code: ```print(list[4])```
 
-5. Output: ```?```
+5. Output: True
 -  Code: ``` 2 in list```
 
 6. Output: ```[2, 0, 1, 0, 'A'] ```
--  Code: ```?``` 
+-  Code: list = [2, 0, 1, 0, 'A']
+         print(list)
 
 7. Output: ```[0, 0, 1, 2] ```
--  Code: ```?```
+-  Code: list = [0, 0, 1, 2]
+         print(list)
 
 8. Output: ``` [2, 0, 1] ``` 
--  Code: ```?```
+-  Code: list = [2, 0, 1, 0]
+         list.remove(0)
+         print(list)
 
 9. Output: ```[0, 1] ```
--  Code: ```?``` 
+-  Code: list = [2, 0, 1, 0]
+         list.remove(0)
+         print(list)
+         list.remove(2)
+         print(list)
 
 10. Output: ```[0, 1, 0, 2] ```
--  Code: ```?``` 
+-  Code: list = [0, 1, 0, 2]
+         print(list)
 
 
 ## Submission:
