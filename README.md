@@ -33,11 +33,10 @@ Notes:
 -        list[3] = 2 `
 
 8. Output: ``` [2, 0, 1] ``` 
--  Code:  list.pop()
+-  Code: print(lista[:3])
 
 9. Output: ```[0, 1] ```
--  Code: list.pop()
-list.remove(2)
+-  Code: print(lista[1:3])
 
 10. Output: ```[0, 1, 0, 2] ```
 -  Code: lista[:4] = [0, 1, 0, 2]
