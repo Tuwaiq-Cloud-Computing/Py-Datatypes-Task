@@ -11,34 +11,34 @@ Notes:
  Answers should only be 1 line long
 
 1. Output: ```4```
--  Code:  ```?``` 
+-  Code:  ```output = len(list)``` 
 
-2. Output: ```?```
+2. Output: ```2```
 -  Code: ```print(list[0])``` 
 
-3. Output: ```?```
+3. Output: ``2```
 -  Code: ```print(list.count(0))``` 
 
-4. Output: ```?```
+4. Output: ```erorr```
 -  Code: ```print(list[4])```
 
-5. Output: ```?```
+5. Output: ```true```
 -  Code: ``` 2 in list```
 
 6. Output: ```[2, 0, 1, 0, 'A'] ```
--  Code: ```?``` 
+-  Code: ```output= list + ['A']``` 
 
 7. Output: ```[0, 0, 1, 2] ```
--  Code: ```?```
+-  Code: ```output = sorted(list)```
 
 8. Output: ``` [2, 0, 1] ``` 
--  Code: ```?```
+-  Code: ```output = list[:-1]```
 
 9. Output: ```[0, 1] ```
--  Code: ```?``` 
+-  Code: ```output = list[1:-1]``` 
 
 10. Output: ```[0, 1, 0, 2] ```
--  Code: ```?``` 
+-  Code: ```output = list[::-1]``` 
 
 
 ## Submission:
