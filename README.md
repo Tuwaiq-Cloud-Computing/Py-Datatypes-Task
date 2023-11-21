@@ -32,7 +32,7 @@ Notes:
 -  Code: list.sort()
 
 8. Output: ``` [2, 0, 1] ``` 
--  Code: del list(3)
+-  Code: del list[3]
 
 9. Output: ```[0, 1] ```
 -  Code: print(list[1:3])
