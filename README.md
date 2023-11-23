@@ -61,7 +61,6 @@ list = [2, 0, 1, 0]
 list.reverse()
 print(list)
 
-
 ## Submission:
 
 - Modify this file to complete the tasks then create a pull request
